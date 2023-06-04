@@ -23,7 +23,7 @@
 //     }     
 // }
 
-let num = 0;
+// let num = 0;
 
 // while (num < 2){
 //     console.log(num);

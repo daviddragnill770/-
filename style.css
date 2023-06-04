@@ -15,7 +15,7 @@
     margin-bottom: 100px;
     /* margin-left: 250px; */
     padding: 50px;
-    border: 50px solid grey;
+    /* border: 50px solid grey; */
     text-align: center;
     color: white;
     text-shadow: 2px 2px 4px #000000;
@@ -24,6 +24,16 @@
     font-size: 50px;
     font-style: oblique;
     font-weight: bolder;
+    text-decoration: none;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: black;
 }
 .davidka{
     width: 15em;
@@ -50,14 +60,17 @@
     vertical-align: text-bottom;
 }
 .vitalik{
-    color: black;
-    text-align: center;
-    font-size: 30px;
-    text-shadow: 10px 10px 10px gray;
-    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
-    font-style: inherit;
-    font-family: 'Courier New', Courier, monospace;
-    margin: 100px;
-    padding: 30px;
-    outline-style: dashed;
+text-align: center;
+padding: 15px 0px;
+background-color: grey;
+color: white;
+font-size: 50px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+word-spacing: 10px;
+text-decoration: none;
+
+}
+
+.lorem{
+    float: right;
 }
