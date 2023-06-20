@@ -1,76 +1,88 @@
-.david{
-    width: 0px;
-    padding: 15px;
+* {
     box-sizing: border-box;
-    margin: 0px 0px 0px 100px;
-    font-size: 20px;
-    outline-style: double;
-    outline-offset: 20px;
-    border: 2px solid #333;
-    background-color: tomato;
-    text-shadow: 2px 2px 5px red;
 }
-.muntean{
-    margin-top: 100px;
-    margin-bottom: 100px;
-    /* margin-left: 250px; */
-    padding: 50px;
-    /* border: 50px solid grey; */
-    text-align: center;
+
+body {
+    background-color: white;
+}
+
+.center{
+    width: 75%;
+    margin: auto;
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.li {
+    float: left;
+}
+
+.li a {
+    display: inline-block;
     color: white;
-    text-shadow: 2px 2px 4px #000000;
-    font-family: 'Courier New', Courier, monospace;
-    word-spacing: -5px;
-    font-size: 50px;
-    font-style: oblique;
-    font-weight: bolder;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
 }
-a:link{
-    color: red;
-}
-a:visited{
-    color: green;
-}
-a:hover{
-    color: black;
-}
-.davidka{
-    width: 15em;
-    border: 1px solid #333;
-    box-shadow: 8px 8px 5px #444;
-    padding: 8px 12px;
-    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: 500px;
-    border-radius: 90px;
-    height: 130px;
-}
-.mmm{
-    text-align: center;
-}
-.loram{
-    text-align-last: center;
-    text-indent: 50px;
-}
-.mama{
-    direction: rtl;
-    unicode-bidi: bidi-override;
-    vertical-align: text-bottom;
-}
-.vitalik{
-text-align: center;
-padding: 15px 0px;
-background-color: grey;
-color: white;
-font-size: 50px;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-word-spacing: 10px;
-text-decoration: none;
 
+.li a:hover {
+    background-color: #111;
 }
 
-.lorem{
-    float: right;
+.active {
+    background-color: red;
+}
+
+.p {
+    width: 75%;
+    margin: auto;
+}
+
+.header,
+.footer {
+    background-color: grey;
+    color: white;
+    padding: 15px;
+}
+
+.colum {
+    float: left;
+    padding: 15px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.menu {
+    width: 25%;
+}
+
+.content {
+    width: 75%;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #33b5e5;
+    color: #ffffff;
+}
+
+.menu li:hover {
+    background-color: #0099cc;
 }
